@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rummy Culture</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/Fontawsome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/owlCarousel/css/owl.carousel.min.css">
+
+ 
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<div class="wrapper after-login">
+
+	<!-- Header -->
+	<nav class="navbar navbar-expand-lg navbar-light header position-fixed top-0 start-0 w-100 ps-2">
+  <!-- <div class="container"> -->
+    <a class="navbar-brand" href="login.html">
+    	<img src="assets/img/logo.png" width="85" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuLogin" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end afterlogin-nav d-none d-md-flex" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 align-items-center">
+        <li class="nav-item">
+          <a class="nav-link text-on-surface fw-normal font-size-14" href="#"><svg width="28" height="28" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;"> <path fill="white" d="M51,12.5c0-2.8-1.2-4-4-4c-2.5,0-5,0-7.5,0c-1-2.8-1.7-3.3-4.7-3.3c-5.9,0-11.9,0-17.8,0c-2.8,0-3.6,0.6-4.5,3.3 c-2.7,0-5.3,0-7.9,0c-1.9,0-3.4,1.1-3.5,2.8c-0.1,2.7-0.3,5.4,0.2,8c1.1,6.5,6.4,10.8,13.2,11c0.5,0,1.2,0.1,1.5,0.5 c1.7,1.8,3.7,3.1,6.1,3.9c0.3,0.1,0.6,0.5,0.6,0.7c0,1.6,0,3.2,0,4.9c-0.6,0-1,0-1.4,0c-1.7,0-3.4,0-5.1,0c-1.7,0-2.8,0.9-3.3,2.3 c-0.7,2.3,0.9,4.3,3.5,4.3c6.4,0,12.8,0,19.3,0c0.2,0,0.5,0,0.7,0c1.7-0.2,2.9-1.5,3-3.2c0.1-1.6-1.1-3.2-2.8-3.3 c-1.9-0.1-3.8-0.1-5.7-0.1c-0.5,0-0.9,0-1.5,0c0-1.6,0-3.1,0-4.5c0-0.8,0.2-1,0.9-1.2c2.1-0.7,3.9-1.8,5.4-3.4 c0.6-0.6,1.1-0.8,2-0.8c6.7-0.2,12-4.5,13.2-11C51.1,17,51,14.7,51,12.5z M12.6,25.1c-3.3-0.6-7.3-5.9-6.8-9.9c1.6,0,5.1,0,6.8,0 C12.6,17.9,12.6,22.5,12.6,25.1z M32.2,17.9l-2.7,2.6c0,0,0,0,0,0l0.6,3.6c0,0.1,0,0.3-0.1,0.4c-0.2,0.3-0.5,0.4-0.8,0.2L26,23 c0,0,0,0,0,0l-3.2,1.7c-0.1,0.1-0.3,0.1-0.4,0.1c-0.3,0-0.6-0.3-0.5-0.7l0.6-3.6c0,0,0,0,0,0l-2.7-2.6c-0.1-0.1-0.1-0.2-0.2-0.3 c0-0.3,0.2-0.6,0.5-0.7l3.7-0.5c0,0,0,0,0,0l1.6-3.2c0.1-0.1,0.2-0.2,0.3-0.3c0.3-0.1,0.7,0,0.8,0.3l1.6,3.2c0,0,0,0,0,0l3.7,0.5 c0.1,0,0.2,0.1,0.3,0.2C32.5,17.3,32.5,17.7,32.2,17.9z M39.4,25.2c0-2.6,0-7.2,0-9.9c1.6,0,5.2,0,6.8,0 C47.1,18.6,42.8,24.5,39.4,25.2z"></path> </svg> Tournaments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-on-surface fw-normal font-size-14" href="#"><svg width="28" height="28" heighversion="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"> <g> <path fill="white" d="M50.8,32.6c-2-4.1-3.8-8.2-5.8-12.3c-1.9-4.2-3.9-8.3-5.8-12.4c-0.5-1-1.5-1.2-2.3-0.3C32,13,27.1,18.5,22.2,23.9 c-0.2,0.2-0.2,0.4-0.1,0.7c1.6,3.5,3.3,7,4.9,10.5c0.1,0.3,0.3,0.3,0.6,0.3c7.3-0.3,14.7-0.5,22-0.7C50.7,34.7,51.3,33.7,50.8,32.6 z"></path> <path fill="white" d="M24.6,38.7c-0.1-0.2-0.2-0.3-0.2-0.5c0.2-0.1,0.4-0.2,0.6-0.3c-2.1-4.5-4.2-9-6.3-13.5c-0.1,0-0.2,0.1-0.3,0.1 c-2.1,1-4.2,2-6.3,3c-2.7,1.3-4.2,4.2-3.7,7.1c0.2,1.2,0.7,2.2,1.2,3.2c1.3,2.8,4.4,4.3,7.4,3.7c0.4-0.1,0.7-0.2,1.1-0.3 c0.1,0.2,0.2,0.3,0.2,0.5c1.3,2.8,2.6,5.6,3.9,8.4c0.4,0.9,1,1.1,2,0.7c1.2-0.6,2.5-1.1,3.7-1.7c0.9-0.4,1.2-1.1,0.7-2 C27.2,44.3,25.9,41.5,24.6,38.7z"></path> <path fill="white" d="M9.4,21.5c0.9,0.6,1.8,1.2,2.6,1.8c0.2,0.1,0.3,0.1,0.4,0c0.9-0.6,1.8-1.2,2.6-1.8c0.2-0.1,0.4-0.2,0.6-0.2 c1.1,0,2.2,0,3.2,0c0.2,0,0.3,0,0.4-0.2c0.3-1,0.7-2,1.1-3c0-0.1,0.2-0.3,0.3-0.3c0.5-0.3,1-0.7,1.4-1c0.5-0.3,1-0.7,1.5-1 c0-0.1,0-0.1,0-0.2c-0.4-1-0.8-2-1.2-3.1c-0.1-0.2-0.1-0.4,0-0.6c0.4-1,0.7-2,1-2.9c0.1-0.2,0-0.3-0.2-0.4 c-0.9-0.6-1.8-1.2-2.7-1.8c-0.1-0.1-0.2-0.2-0.3-0.4c-0.4-1-0.7-2-1.1-3c-0.1-0.2-0.1-0.2-0.3-0.2c-1.1,0-2.2,0-3.3,0 c-0.2,0-0.4-0.1-0.5-0.1c-0.9-0.6-1.8-1.2-2.6-1.8c-0.2-0.1-0.3-0.1-0.4,0c-0.9,0.6-1.8,1.2-2.7,1.8C9.2,3,9,3.1,8.8,3.1 c-1.1,0-2.2,0-3.3,0c-0.2,0-0.3,0.1-0.4,0.3c-0.3,1-0.6,2-1,3c0,0.1-0.2,0.3-0.3,0.4C3,7.4,2.1,8,1.2,8.6C1,8.7,1,8.8,1.1,9 c0.3,0.8,0.5,1.5,0.8,2.3c0.3,0.7,0.3,1.3,0,1.9C1.6,14,1.3,14.9,1,15.7c0.1,0.1,0.2,0.1,0.2,0.2c0.9,0.6,1.8,1.2,2.7,1.8 c0.1,0.1,0.2,0.2,0.3,0.4c0.4,1,0.7,2,1,3c0.1,0.2,0.2,0.3,0.5,0.3c1.1,0,2.1,0,3.2,0C9.1,21.4,9.3,21.5,9.4,21.5z M14.2,18.9 c-1.1,0-2-0.9-2-2s0.9-2,2-2h0l0,0c1.1,0,2,0.9,2,2C16.2,18,15.3,18.9,14.2,18.9z M10.3,5.6L10.3,5.6L10.3,5.6c1.1,0,2,0.9,2,2 c0,1.1-0.9,2-2,2c-1.1,0-2-0.9-2-2C8.3,6.5,9.2,5.6,10.3,5.6z M8,14.5c2.1-2.1,4.3-4.3,6.4-6.4c0.3-0.3,0.7-0.5,1-0.5 c0.2,0,0.4,0,0.6,0.1c0.6,0.2,0.9,0.7,0.9,1.4l0,0.1l0,0.1c0,0,0,0.1-0.1,0.1c-0.1,0.2-0.2,0.4-0.4,0.6c-2.3,2.3-4.5,4.5-6.4,6.4 C9.7,16.8,9.4,17,9,17c-0.4,0-0.8-0.2-1-0.5C7.4,15.9,7.4,15.1,8,14.5z"></path> </g> </svg> Promotions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-on-surface fw-normal font-size-14" href="#"><svg width="28" height="28" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve"> <g> <path fill="white" d="M47.3,48.7c-0.1-1.3-0.3-2.7-0.4-4c-0.3-3.1-1.8-5.4-4.7-6.7c-0.3-0.2-0.6-0.2-0.9,0.1c-2.9,2-6.9,2-9.8,0 c-0.3-0.2-0.5-0.2-0.9-0.1c-2.4,1.1-4.1,2.9-4.6,5.5c-0.4,1.8-0.5,3.7-0.7,5.6c-0.1,1.3,0.5,2,1.8,2c3.1,0,6.1,0,9.1,0 c3.1,0,6.2,0,9.3,0c0,0,0,0,0.1,0c1.1,0,1.7-0.7,1.7-1.8C47.4,49.1,47.4,48.9,47.3,48.7z"></path> <path fill="white" d="M26.5,30.1c0.1-0.4,0-0.7,0-1.1c-0.1-1.3-0.3-2.7-0.4-4c-0.3-3.1-1.9-5.3-4.7-6.6c-0.3-0.1-0.5-0.2-0.9,0 c-3.3,2.1-6.6,2.1-9.9,0c-0.2-0.1-0.5-0.1-0.7-0.1c-2.4,1-4.1,2.8-4.6,5.4c-0.4,2-0.5,4.1-0.7,6.1c-0.1,0.9,0.6,1.5,1.6,1.5 c1.2,0,2.5,0,3.7,0c0.2,0,0.5-0.2,0.6-0.3c0.7-0.9,1.4-1.9,2.1-2.9c1.5-1.9,4.1-2,5.6-0.1c0.4,0.4,0.7,0.9,1,1.4 c0.5,0.6,0.8,1.5,1.4,1.8c0.6,0.3,1.5,0.1,2.3,0.1c0,0,0,0,0,0.1c0.6,0,1.3,0,1.9,0c0,0,0.1,0,0.1,0C25.8,31.2,26.4,30.7,26.5,30.1 z"></path> <path fill="white" d="M15.5,17.4c3.7,0,6.6-2.9,6.6-6.5c0-3.6-2.9-6.6-6.5-6.6C12,4.3,9,7.2,9,10.8C9,14.4,11.9,17.4,15.5,17.4z"></path> <path fill="white" d="M29.8,30.6c0,3.6,3,6.5,6.6,6.5c3.6,0,6.5-3,6.5-6.6c0-3.6-3-6.6-6.6-6.6C32.7,24,29.8,26.9,29.8,30.6z"></path> <path fill="white" d="M18.9,41.3c-0.2-0.9-0.3-1.9-0.5-2.9c0.7,0,1.3,0,1.9,0c0.5,0,1-0.1,1.2-0.6c0.2-0.5,0.1-0.9-0.2-1.3 c-1.7-2.3-3.3-4.6-5-6.9c-0.6-0.8-1.4-0.8-2,0c-1.7,2.3-3.3,4.6-5,6.9c-0.3,0.4-0.4,0.8-0.2,1.3c0.2,0.5,0.7,0.6,1.2,0.6 c0.7,0,1.3,0,2,0c0.1,0.5,0.1,0.8,0.2,1.2c0.6,4.2,4.4,7.9,8.6,8.4c0.3,0,0.5-0.1,0.8-0.2c-0.1-0.2-0.1-0.5-0.3-0.7 C20.4,45.3,19.4,43.4,18.9,41.3z"></path> <path fill="white" d="M36.4,20.7c5.5,0,9.9-4.4,9.9-9.8S41.9,1,36.4,1c-5.5,0-9.9,4.4-9.9,9.9S30.9,20.7,36.4,20.7z M34.9,7.4h-1.2 c-0.5,0-1-0.4-1-1s0.4-1,1-1h5.5c0.5,0,1,0.4,1,1s-0.4,1-1,1h-1.3C37.9,7.5,38,7.7,38,7.8h1.1c0.5,0,1,0.4,1,1s-0.4,1-1,1H38 c-0.3,1.2-1.3,2-2.5,2.3l2.5,3.2c0.3,0.4,0.2,1-0.2,1.3c-0.2,0.1-0.4,0.2-0.6,0.2c-0.3,0-0.6-0.1-0.7-0.4l-3.6-4.7 c-0.2-0.3-0.3-0.6-0.1-1c0.1-0.3,0.5-0.6,0.9-0.6h1.2c0.4,0,0.8-0.2,1-0.4h-2.2c-0.5,0-1-0.4-1-1s0.4-1,1-1h2.2 C35.6,7.6,35.3,7.4,34.9,7.4z"></path> </g> </svg> Refer & Earn</a>
+        </li>
+        <li class="nav-item deposit-nav">
+          <a class="nav-link text-on-surface fw-normal font-size-14" href="deposit.html">Deposit</a>
+        </li>
+        <!-- <li class="nav-item instant-nav ms-2 me-1">
+          <a class="nav-link text-on-surface fw-normal font-size-14" href="#">Instant Play</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link text-on-surface fw-normal font-size-14 balance-nav" href="#">Current Balance<strong>0.00</strong></a>
+        </li>
+        <li class="nav-item userProfile-nav">
+          <a class="nav-link text-on-surface fw-normal font-size-20" href="#"><i class="fa-solid fa-user"></i> Nitish</a>
+        </li>
+        <li class="nav-item userProfile-nav">
+          <a class="nav-link text-on-surface fw-normal font-size-20" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuLogin"><i class="fa-solid fa-bars"></i></a>
+        </li>
+      </ul>
+      
+    </div>
+  <!-- </div> -->
+</nav>
+
+<!-- Header End! -->
+
+
+<div class="container-fluid banner position-relative overflow-hidden">
+	<div class="container position-relative pt-72 pb-72" style="z-index:1;">
+		<div class="row">
+			<div class="col-12 col-md-6 position-relative">
+				<div class="position-absolute start-0 top-0 bottom-0 d-flex align-items-center flex-wrap">
+					<div class="w-100">
+				<p class="font-size-16 text-uppercase fw-bold mb-1" style="color:#fcee00;"> Welcome to </p>
+				<h2 class="fw-bold font-size-32 text-white mainTitle">Mobzway <br>Gaming Platform</h2>
+				<p class="text-on-surface mt-3"> Play Rummy virtually with hundreds of professional players all <br>over India. Show best 13 cards skill and win daily exciting prizes. </p>
+				<div class="links paste_pkgames mt-5">
+								<a href="#" class="mybtn1 link1">Download Now</a>&nbsp;&nbsp;
+								<a href="#" class="mybtn1 link1 ">Instant Play</a>
+							</div>
+						</div>
+						</div>
+			</div>
+
+			<div class="col-12 col-md-6 d-flex justify-content-end" style="min-height: 572px;">
+				<img class="topbottomAni image" src="assets/img/Rummy Mobile 13 Cards.png" width="400" />
+			</div>
+
+		</div>
+	</div>
+	<div class="position-absolute banner-shap bottom-0">
+		<div class="position-relative">
+		<img class="w-100 position-absolute start-0 bottom-0" src="assets/img/rc-back-pattern-2.svg" />
+	</div>
+	</div>
+</div>
+
+<!-- <div class="container-fluid">
+<div class="row">
+	<div class="col-12 d-flex">
+		<hr class="border-top w-50" style="border-color: var(--md-sys-color-stroke) !important;">
+		<img class="px-1" src="assets/img/decoration-red.svg" width="58px" />
+		<hr class="border-top w-50" style="border-color: var(--md-sys-color-stroke) !important;">
+	</div>
+</div>
+</div> -->
+
+
+<div class="container-fluid pt-72 pb-72">
+	<div class="container">
+
+		<div id="carouselExampleCaptions1" class="carousel slide slide-banner-after" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="slide-banner-after-content rounded" style="background: linear-gradient(93.84deg, #961c1f -80.23%, #640d0f -39.95%, #400203 87.81%);border-color: rgba(152, 28, 31, 0.24);">
+      	<div class="row m-0">
+      		<div class="col-md-6">
+      			<h2 class="fw-bold font-size-32 text-on-surface d-flex align-items-center"><img class="me-2" src="assets/img/thunder.svg" width="48" /> Seamless Experience</h2>
+      			<ul class="fw-normal pt-3 slideList">
+        			<li>Smooth gameplay experience</li>
+        			<li>Exciting offers and rewards</li>
+        			<li>Instant withdrawals</li>
+        		</ul>
+        		<img src="assets/img/seamless-bg-design.svg" width="304" height="55" />
+      		</div>
+      		<div class="col-md-6">
+      			<img class="w-100" src="assets/img/smooth-gaming-2x.svg" />
+      		</div>
+      	</div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="slide-banner-after-content rounded" style="background: linear-gradient(180deg, #1f2651 39.87%, rgba(31, 38, 81, 0.35) 100%);border-color: rgba(131, 193, 244, 0.24);">
+      	<div class="row m-0">
+      		<div class="col-md-6">
+      			<h2 class="fw-bold font-size-32 text-on-surface d-flex align-items-center"><img class="me-2" src="assets/img/thunder.svg" width="48" /> Seamless Experience</h2>
+      			<ul class="fw-normal pt-3 slideList">
+        			<li>Smooth gameplay experience</li>
+        			<li>Exciting offers and rewards</li>
+        			<li>Instant withdrawals</li>
+        		</ul>
+        		<img src="assets/img/seamless-bg-design.svg" width="304" height="55" />
+      		</div>
+      		<div class="col-md-6">
+      			<img class="w-100" src="assets/img/support-adv-2x.svg" />
+      		</div>
+      	</div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="slide-banner-after-content rounded" style="background: linear-gradient(180deg, #186d49 39.87%, rgba(24, 109, 73, 0.35) 100%);border-color: rgba(131, 193, 244, 0.24);">
+      	<div class="row m-0">
+      		<div class="col-md-6">
+      			<h2 class="fw-bold font-size-32 text-on-surface d-flex align-items-center"><img class="me-2" src="assets/img/thunder.svg" width="48" /> Seamless Experience</h2>
+      			<ul class="fw-normal pt-3 slideList">
+        			<li>Smooth gameplay experience</li>
+        			<li>Exciting offers and rewards</li>
+        			<li>Instant withdrawals</li>
+        		</ul>
+        		<img src="assets/img/support-bg-design.svg" width="435" height="34" />
+      		</div>
+      		<div class="col-md-6">
+      			<img class="w-100" src="assets/img/trusted-2x.svg" />
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-indicators m-0 position-relative mt-4">
+    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  
+</div>
+
+	</div>
+</div>
+
+
+<div class="container-fluid all-certified-block pt-72 pb-72">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-2 text-center">
+				<img src="assets/img/world-record-icon.svg" />
+				<span class="d-block text-center font-size-14 fw-bold text-on-surface">Guinness world<br>record holder</span>
+			</div>
+			<div class="col-md-2 text-center">
+				<img src="assets/img/rng-certified-icon.svg" />
+				<span class="d-block text-center font-size-14 fw-normal" style="color: #A8A9AA;">RNG certified<br>by itleabs</span>
+			</div>
+			<div class="col-md-2 text-center">
+				<img src="assets/img/no-bot-certification-icon.svg" />
+				<span class="d-block text-center font-size-14 fw-normal" style="color: #A8A9AA;">No bot certified<br>by itleabs</span>
+			</div>
+			<div class="col-md-2 text-center">
+				<img src="assets/img/ssl-secure-icon.svg" />
+				<span class="d-block text-center font-size-14 fw-normal" style="color: #A8A9AA;">SSL secure<br>connection</span>
+			</div>
+			<div class="col-md-2 text-center">
+				<img src="assets/img/iso-icon.svg" />
+				<span class="d-block text-center font-size-14 fw-normal" style="color: #A8A9AA;">ISO<br>certified</span>
+			</div>
+			<div class="col-md-2 text-center">
+				<img src="assets/img/nations-trusted-icon.svg" />
+				<span class="d-block text-center font-size-14 fw-normal" style="color: #A8A9AA;">Nation’s Trusted<br>Rummy App</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid pt-72 pb-72">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 text-white">
+				<img class="d-block mx-auto" src="assets/img/responsible-gaming.svg" />
+				<h3 class="mt-3 fw-bold font-size-20 text-on-surface text-center">Responsible gaming</h3>
+				<p class="text-center font-size-14 opacity-75">Players must be minimum 18 years of age to play real money rummy games. This game may be habit-forming or financially risky. Play responsibly.</p>
+			</div>
+			<div class="col-md-4 text-white">
+				<img class="d-block mx-auto" src="assets/img/secured-payments.svg" />
+				<h3 class="mt-3 fw-bold font-size-20 text-on-surface text-center">Secured payments partners</h3>
+				<img class="mx-auto d-block mt-3" src="assets/img/all-payments.svg" />
+			</div>
+			<div class="col-md-4 text-white">
+				<img class="d-block mx-auto" src="assets/img/legal.svg" />
+				<h3 class="mt-3 fw-bold font-size-20 text-on-surface text-center">100% Legal</h3>
+				<p class="text-center font-size-14 opacity-75">Players must be minimum 18 years of age to play real money rummy games. This game may be habit-forming or financially risky. Play responsibly.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid pt-72 pb-72" style="background: var(--md-sys-color-black);">
+	<div class="container">
+		<h3 class="subTitle text-center"> INDIA'S BEST REWARDING RUMMY PLATFORM </h3>
+		<h2 class="title text-center">
+			 WHY ONLINE RUMMY ON RUMMYDHAMAAL? 
+		</h2>
+		<p class="text-on-surface text-center"> Rummy Dhamaal offering a single platform to play rummy online, as this card game have been very popular amount friends and families. With help of technology, Rummy Dhamaal created an online platform to play rummy either free or with cash. When we play with friends in offline/physical mode then it doesn't represent competitive, but in online, player need to put skill to win the game. This is a basic card game played with mimimum 2 players and maximum 6 with 2 deck of cards. The objective of this game is to arrange the cards in proper sequences with impure and sets to declare, and keep in mind, you should be first to declare the hand cards. Rummy Dhamaal tables are super exciting and give you the environment of fast and smooth game play. Players can join the table with minimum to maximum entry for rewards and cash prizes. </p>
+
+<div class="row pt-72">
+						<div class="col-lg-5 col-md-5">
+							<div class="hero-img2 d-block d-md-none">
+						<img src="assets/img/contact.png" alt="">
+					</div>
+					<div class="hero-img d-none d-md-block">
+						<img class="shape man" src="assets/img/contact.png" alt="" width="400px">
+					</div>
+						</div>
+						<div class="col-lg-6  col-md-6">
+							<div class="section-heading">
+								<!-- <h5 class="subtitle">
+									INDIA'S BEST REWARDING RUMMY PLATFORM
+								</h5> -->
+								<h2 class="title" style="text-align: justify;">
+										HOW TO PLAY
+								</h2>
+								<p class="text-on-surface">
+									Rummy is a simple card game that is played with two or more players. It requires 2 decks of cards if the number of players exceeds five. First player at a table arranges the cards which are dealt into predefined combinations and submits the melded cards. Your primary aim is to be the first players as the rest of the players accumulate points based on the cards in their hands. The player who has the least number of points at the end of a game wins the game.
+								</p>
+								<div class="links" style="text-align: justify;">
+								<a href="https://www.rummydhamaal.com/howtoplay" class="mybtn1 link1">Read More</a>
+							</div>
+							</div>
+						</div>
+					</div>
+
+	</div>
+</div>
+
+
+
+<!-- 
+<div class="container-fluid">
+<div class="row">
+	<div class="col-12 d-flex">
+		<hr class="border-top w-50" style="border-color: var(--md-sys-color-stroke) !important;">
+		<img class="px-1" src="assets/img/decoration-red.svg" width="58px" />
+		<hr class="border-top w-50" style="border-color: var(--md-sys-color-stroke) !important;">
+	</div>
+</div>
+</div> -->
+
+
+<div class="container-fluid pt-72 pb-72">
+	<div class="container">
+		<h2 class="title mb-5 text-center">Player Says</h2>
+		
+		<div class="game-slider">
+<div class="owl-carousel owl-theme">
+				
+						<div class="item">
+							<div class="single-game">
+								<p class="mt-3 text-justify my" style="padding: 50px; text-align: center">Rummy dhamaal comprising of best rummy user interface, i liked to play games as visibility is very good. Rummy dhamaal also provides different game options in lobby like bank details, kyc etc.</p>
+								<a href="#" class="mybtn2">Himanshu Gour</a>
+							
+						</div></div>
+						<div class="item">
+							<div class="single-game">
+									<p class="mt-3 text-justify my" style="padding: 50px; text-align: center">I am having a great experience while playing game in Rummy dhamaal, it gives exciting offers in deposit. With skill i withdrawn large amount after winning.</p>
+									<a href="#" class="mybtn2">Shivanand pathak</a>
+							</div></div>
+						
+						<div class="item">
+							<div class="single-game">
+									<p class="mt-3 text-justify my" style="padding: 50px; text-align: center">I recommend all rummy players to try rummy dhamaal once,i got maximum solution here.Along with game play, support/deposit/withdrawal is hassle free.</p>
+									<a href="#" class="mybtn2">Neeraj Kumawat</a>
+							</div>
+</div>
+						
+						<div class="item">
+							<div class="single-game">
+							<p class="mt-3 text-justify my" style="padding: 50px; text-align: center">I loved rummydhamaal from the date of regitration, games fulfill with exciting when you play with professial players. I love to play pool game in rummydhamaal to win big amount.</p>
+									<a href="#" class="mybtn2">Pranav Sharma</a>
+
+							</div></div>
+						
+
+</div>
+
+	</div>
+</div>
+</div>
+
+
+<div class="container-fluid">
+<div class="row">
+	<div class="col-12 d-flex">
+		<hr class="border-top w-50" style="border-color: var(--md-sys-color-stroke) !important;">
+		<img class="px-1" src="assets/img/decoration-red.svg" width="58px" />
+		<hr class="border-top w-50" style="border-color: var(--md-sys-color-stroke) !important;">
+	</div>
+</div>
+</div>
+
+
+<div class="container-fluid pt-72 pb-72">
+	<div class="container">
+		<p class="subTitle text-center mb-2" style="color: #ffff0c;"> Special Offers for you at </p>
+		<h2 class="title mb-5 text-center"> India's Most Rewarding Rummy Website</h2>
+
+		<div class="row rewarding-block">
+				<div class="col-lg-12">
+
+
+
+			    <div class="owl-carousel owl-theme">
+        
+		<div class="item"><img src="assets/img/tour1.jpg"></div>
+		<div class="item"><img src="assets/img/tour2.jpg"></div>
+		<div class="item"><img src="assets/img/tour3.jpg"></div>
+		<div class="item"><img src="assets/img/tour4.jpg"></div>
+		<div class="item"><img src="assets/img/tour1.jpg"></div>
+		<div class="item"><img src="assets/img/tour2.jpg"></div>
+		<div class="item"><img src="assets/img/tour3.jpg"></div>
+        
+    </div>
+
+
+
+</div>
+
+				</div>
+
+</div>
+</div>
+
+
+
+<!-- Footer -->
+
+<div class="container-fluid footer pt-72 pb-72">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<ul>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">About us</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Help and Support</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Legal</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Terms of Service</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Press</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Referral</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Tournaments</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Club</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">TDS Policy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Privacy Policy</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Withdrawal Policy</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Fairplay Policy</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">GST Policy</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Play Responsibly</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Download App</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">How to Play Rummy</a>
+					</li>
+					<li class="mb-3">
+						<a href="#" class="text-on-surface font-size-16">Rummy Offers</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row mt-3">
+			<div class="col-12">
+				<img class="me-3" src="assets/img/app-store.svg" width="144" height="50" />
+				<img src="assets/img/play-store.svg" width="144" height="50" />
+			</div>
+		</div>
+		<div class="row mt-4">
+			<div class="col-12 border-bottom pb-4 mb-5">
+				<h3 class="font-size-16 fw-bold mb-1">Gameskraft Technologies Private Limited</h3>
+				<p class="text-on-surface font-size-14 mb-4"> 2nd Floor, B-Wing, Elnath Building, Exora Business Park, Prestige Tech Park, <br>Kadubesanhalli, Bangalore, Karnataka-560103 </p>
+				<p class="text-on-surface font-size-14"> Players from Meghalaya, Andhra Pradesh, Telangana, Assam, Odisha, Nagaland and Sikkim are not allowed to play online cash rummy. Know More </p>
+				<p class="text-on-surface font-size-14"> Nation's Trusted Rummy App Disclaimer: As per a recent study conducted by Unomer (February, 2023) which surveyed 2,000 rummy players across India, aged 21–50, who play rummy on their smartphones. </p>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+				<img src="assets/img/logo.png" width="147" />
+			</div>
+			<div class="col-md-4 text-center text-on-surface font-size-14">
+				<p class="mb-0">© 2024 • All Rights Reserved<br>Made with ❤️ in India</p>
+			</div>
+			<div class="col-md-4 mt-3 mt-md-0">
+				<ul class="d-flex justify-content-end social-media">
+				<li>
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+				</li>
+				<!-- <li>
+					<a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+				</li> -->
+				<li>
+					<a href="#"><i class="fa-brands fa-telegram"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-brands fa-youtube"></i></a>
+				</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+</div>
+
+
+
+<!-- Login Menu -->
+
+<div class="offcanvas offcanvas-end offcanvasMenu-block loginMenuoffcanvas" tabindex="-1" id="offcanvasMenuLogin" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <div class="user-offcanvas-details d-flex align-items-center">
+    	<div class="user-icon me-2">
+    		<img src="assets/img/user.png" />
+    	</div>
+    	<div class="userName">
+    		<p class="m-0 text-white fw-bold">Nitish<span class="user-blancer d-block text-white fw-normal font-size-14">500.00</span></p>
+    	</div>
+    </div>
+    <button type="button" class="btn-close text-reset text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body px-0">
+   <ul class="navbar-nav dropdown-menu-custome header-navbar-top d-flex align-items-center justify-content-between w-100">
+          
+
+          
+          <!-- <li class="nav-item dropdownItem border-0 position-relative">
+          <a class="nav-link dropdown-toggle" href="#" role="button">
+            <i class="fa-solid fa-user"></i> LokeshPareek
+          </a> -->
+          <!-- <ul class="dropdown-menu-custome position-absolute end-0"> -->
+            
+        <li class="dropdown-item">
+            <a class="dropdown-item" href="#"><i class="fa-solid fa-gift"></i> Bonus</a>
+          </li>
+            <!-- <li><a class="dropdown-item" href="#"><i class="fa-solid fa-indian-rupee-sign"></i> 8022.32</a></li> -->
+            <!-- <li class="sub-dropdown-item"><a class="dropdown-item" href="#">Profile</a>
+              <ul class="sub-menu"> -->
+                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> Kyc</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-file-invoice"></i> Bank Account</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-lock"></i> Change Password</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> Games History</a></li>
+              <!-- </ul> -->
+            <!-- </li> -->
+            <!-- <li class="sub-dropdown-item"><a class="dropdown-item" href="#">Add Cash</a> -->
+              <!-- <ul  class="sub-menu"> -->
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-money-bill-transfer"></i> Withdrawal </a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> Transaction History</a></li>
+            <li><a class="dropdown-item" href="deposit.html"><i class="fa-solid fa-money-bill-transfer"></i> Deposit</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-envelope-open-text"></i> My Invitation potrtate</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-clock-rotate-left"></i> Deposit Histoy</a></li>
+          <!-- </ul> -->
+            <!-- </li> -->
+            <li class="position-relative">
+          <a class="dropdown-item" href="#" role="button">
+            <img src="assets/img/customer-service.png" width="16" /> Customer Support
+          </a>
+        </li>
+            <li class="nav-item border-0">
+            <a class="nav-link border-0" href="#"><i class="fa-solid fa-right-from-bracket"></i> Log out</a>
+          </li>
+          <!-- </ul>
+        </li> -->
+          
+        </ul>
+
+  </div>
+</div>
+
+<!-- Login Menu End  -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/owlCarousel/js/owl.carousel.min.js"></script>
+
+ 
+
+
+<script>
+	const headerDiv = document.querySelector('.header');
+
+	function handleScroll() {
+		const scrollPosition = window.scrollY;
+		const triggerPosition = 80;
+		if (scrollPosition > triggerPosition) {
+			headerDiv.classList.add('fixed-header');
+		} else {
+			headerDiv.classList.remove('fixed-header');
+		}
+	}
+	window.addEventListener('scroll', handleScroll);
+
+</script>
+<script>
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        // autoplay: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
+  });
+</script>
+
+
+
+
+</body>
+</html>
