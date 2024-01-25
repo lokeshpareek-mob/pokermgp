@@ -16,8 +16,8 @@
 <div class="wrapper pt-0">
 
 	<!-- Header -->
-	<nav class="navbar navbar-expand-lg navbar-light header position-fixed top-0 start-0 w-100">
-  <div class="container">
+	<nav class="navbar px-4 navbar-expand-lg navbar-light header position-fixed top-0 start-0 w-100">
+  <!-- <div class="container"> -->
     <a class="navbar-brand" href="index.html">
     	<img src="assets/img/logo.png" width="85" />
     </a>
@@ -40,7 +40,7 @@
         </li>
       </ul>
       
-    </div>
+    <!-- </div> -->
   </div>
 </nav>
 
@@ -48,21 +48,28 @@
 
 
 <div class="hero-banner position-relative">
-	<img class="w-100" src="https://www.mobzway.com/assets/images/homepage_banner.avif" />
+	<img class="w-100" src="assets/img/poker-game-development.png" />
 	<div class="position-absolute h-100 w-100 end-0 start-0 top-0 hero-banner-content d-flex align-items-center">
 		<div class="container">
         <div class="row">
           <div class="col-lg-10">
-            <h2>Welcome to Our Website</h2>
-            <p>We are team of talented designers making websites with Bootstrap</p>
+            <h2>Welcome to MGP Poker</h2>
+            <p>India number one gaming platform</p>
           </div>
           <div class="col-lg-5">
             <form action="login.html" class="sign-up-form d-flex">
-              <input type="text" class="form-control" placeholder="Enter mobile number">
-              <input type="submit" class="btn btn-primary" value="Sign up">
+              <input type="text" class="form-control input-field" placeholder="Enter mobile number">
+              <input type="submit" class="btn btn-primary signupBtn" value="Sign up">
             </form>
           </div>
         </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-5">
+            <button class="loginwithemail">Continue with email</button>
+          </div>
+        </div>
+
       </div>
 	</div>
 </div>
@@ -311,10 +318,26 @@
 </div>
 
 
+
+
+
+<!-- Footer -->
+
+
 <div class="container-fluid bgss p-5 font-arial footer">
   <div class="container">
     <div class="row">
-      <div class="col-md-6"><img src="assets/img/logo.png" width="140" class="logg"></div>
+      <div class="col-md-3"><img src="assets/img/logo.png" width="140" class="logg"></div>
+
+      <div class="col-md-3">
+<ul class="foot-text" style="display: grid;">
+   <li style="display: flex;margin-bottom: -11px;"><a style="color: white;" href="#">Contact Us</a></li>&nbsp; &nbsp;
+  <li style="display: flex;margin-bottom: -11px;"><a style="color: white;" href="#">Legality</a></li>&nbsp; &nbsp;
+  <li style="display: flex;margin-bottom: -11px;"><a style="color: white;" href="#">Withdrawal</a></li>&nbsp; &nbsp;
+  
+</ul>
+
+      </div>
 
       <div class="col-md-3">
 <ul class="foot-text" style="display: grid;">
@@ -339,13 +362,9 @@
 
       <hr class="new">
       <div class="row">
-<div class="col-6 mt-4" style="display: flex;justify-content: space-around;">
-  <h5 class="text-white ujj cont" style="white-space: nowrap;font-size: 18px;"><a href="#" style="color: white;">Contact Us</a></h5>&nbsp;&nbsp;
-  <h5 class="text-white ujj" style="white-space: nowrap;font-size: 18px;"><a href="#" style="color: white;">Legality</a></h5>&nbsp;&nbsp;
-  <h5 class="text-white ujj" style="white-space: nowrap;font-size: 18px;"><a href="#" style="color: white;">Withdrawal</a></h5>&nbsp;&nbsp;
-</div>
 
-<div class="col-6 mt-4 my-c d-flex justify-content-end" style="position: relative;"><h5 class="text-white web" style="font-size:17px;">© 2021 MGP Poker. All rights reserved.</h5></div>
+
+<div class="col-12 mt-4 my-c d-flex justify-content-center" style="position: relative;"><h5 class="text-white web" style="font-size:17px;">© 2021 MGP Poker. All rights reserved.</h5></div>
 
  
 </div>
@@ -353,8 +372,13 @@
   </div>
 </div>
 
-	
+  
 </div>
+
+
+<div class="offcanvas offcanvas-end offcanvasMenu-block loginMenuoffcanvas" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasRightLabel" style="z-index: 10000; visibility: visible;" aria-modal="true" role="dialog"><div class="offcanvas-header"><div class="user-offcanvas-details d-flex align-items-center"><div class="user-icon me-2"><img src="assets/img/user.png" alt=""></div><div class="userName"><p class="m-0 text-white fw-bold">displayname-zFYVW<span class="user-blancer d-block text-white fw-normal font-size-14">50000</span></p></div></div><button type="button" class="btn-close text-reset text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button></div><div class="offcanvas-body px-0"><ul class="navbar-nav dropdown-menu-custome header-navbar-top d-flex align-items-center justify-content-between w-100"><li class="dropdown-item"><a class="dropdown-item" data-bs-dismiss="offcanvas" href="/info"><i class="fa-solid fa-address-card"></i> My Profile</a></li><li class="dropdown-item"><a class="dropdown-item" href="bonus.html" data-bs-dismiss="offcanvas"><i class="fa-solid fa-gift"></i> Bonus</a></li><li><a class="dropdown-item" href="#" data-bs-dismiss="offcanvas"><i class="fa-solid fa-user"></i> Kyc</a></li><li><a class="dropdown-item" href="#" data-bs-dismiss="offcanvas"><i class="fa-solid fa-file-invoice"></i> Bank Account</a></li><li><a class="dropdown-item" href="#" data-bs-dismiss="offcanvas"><i class="fa-solid fa-clock-rotate-left"></i> Games History</a></li><li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="/withdrawal"><i class="fa-solid fa-money-bill-transfer"></i>Withdrawal </a></li><li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="/history"><i class="fa-solid fa-clock-rotate-left"></i> Transaction History</a></li><li><a class="dropdown-item" data-bs-dismiss="offcanvas" href="/addCash"><i class="fa-solid fa-money-bill-transfer"></i>Deposit</a></li><li><a class="dropdown-item" href="#" data-bs-dismiss="offcanvas"><i class="fa-solid fa-envelope-open-text"></i> My Invitation potrtate</a></li><li><a class="dropdown-item" href="#" data-bs-dismiss="offcanvas"><i class="fa-solid fa-clock-rotate-left"></i> Deposit Histoy</a></li><li class="nav-item border-0" style="padding: 10px 22px;"><a class="downloadbtn" data-bs-dismiss="offcanvas" href="/"><i class="fa-solid fa-right-from-bracket"></i> Log out</a></li></ul></div></div>
+
+
 
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -363,20 +387,22 @@
 
 
 <script>
-	const headerDiv = document.querySelector('.header');
+  const headerDiv = document.querySelector('.header');
 
-	function handleScroll() {
-		const scrollPosition = window.scrollY;
-		const triggerPosition = 50;
-		if (scrollPosition > triggerPosition) {
-			headerDiv.classList.add('fixed-header');
-		} else {
-			headerDiv.classList.remove('fixed-header');
-		}
-	}
-	window.addEventListener('scroll', handleScroll);
+  function handleScroll() {
+    const scrollPosition = window.scrollY;
+    const triggerPosition = 50;
+    if (scrollPosition > triggerPosition) {
+      headerDiv.classList.add('fixed-header');
+    } else {
+      headerDiv.classList.remove('fixed-header');
+    }
+  }
+  window.addEventListener('scroll', handleScroll);
 
 </script>
+
+
 
 </body>
 </html>
