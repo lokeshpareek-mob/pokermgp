@@ -580,13 +580,13 @@ a {
     width: 100%;
   }
   .header .navbar-collapse {
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  left: 0;
-  background: var(--md-sys-color-black);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-}
+    position: absolute;
+    top: 100%;
+    width: 230px;
+    right: 0;
+    background: var(--md-sys-color-black);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
 .header .navbar-nav {
   gap: 0px;
 }
@@ -1025,4 +1025,21 @@ details[open] {
   .confirmEmailBtn {
     width: 100%;
   }
+  .wrapper {
+  padding-bottom: 30px;
+}
+.footer ul {
+  padding: 0;
+}
+.footer .logg {
+  margin-bottom: 25px;
+}
+.footer .text-white.web {
+  text-align: center;
+}
+.hero-banner-content {
+  align-items: start !important;
+  padding-top: 120px;
+}
+
 }
