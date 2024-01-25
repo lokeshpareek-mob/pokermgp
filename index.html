@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Rummy Culture</title>
+	<title>MGP Poker</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/Fontawsome/css/all.min.css">
@@ -53,7 +53,7 @@
 		<div class="container">
         <div class="row">
           <div class="col-lg-10">
-            <h2>Welcome to MGP Poker</h2>
+            <h2>Welcome to <span class="websiteTitle"></span></h2>
             <p>India number one gaming platform</p>
           </div>
           <div class="col-lg-5">
@@ -408,6 +408,11 @@
   }
   window.addEventListener('scroll', handleScroll);
 
+</script>
+
+<script>
+  const websiteTitle = document.querySelector('.websiteTitle');
+  websiteTitle.innerHTML = document.title;
 </script>
 
 
