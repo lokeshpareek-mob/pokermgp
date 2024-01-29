@@ -566,7 +566,7 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 .hero-banner img {
-  height: 100vh;
+  height: 80vh;
   object-fit: cover;
 }
 .hero-banner-content {
@@ -992,6 +992,14 @@ details[open] {
 }
 .avtar-section, .avtar-gallery-block {
   display: none;
+}
+.loginwithemail {
+  width: auto;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  opacity: 0.8;
 }
 
 

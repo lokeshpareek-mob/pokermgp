@@ -65,7 +65,7 @@
         </div>
 
         <div class="row mt-4">
-          <div class="col-lg-5">
+          <div class="col-lg-5 d-flex justify-content-end">
             <button class="loginwithemail">Continue with email</button>
           </div>
         </div>
@@ -75,45 +75,10 @@
 </div>
 
 
-<div class="container-fluid">
-	<div class="container">
-<div class="row upper">
-<div class="col-md-4 mtop-minus">
-<div class="colour-box colour-box--arrow">
-  <div class="colour-box__icon"> </div>
- 
-  <h1 class="colour-box__title">6 Years</h1>
-  <p class="colour-box__text text-white">Still in indians hand</p>
-</div>
-</div>
 
-<div class="col-md-4 mtop-minus">
-<div class="colour-box colour-box--arrow">
-  <div class="colour-box__icon"></div>
-  <h1 class="colour-box__title">3 Lakhs</h1>
-  <p class="colour-box__text text-white">Active users</p>
-</div>
-</div>
-
-
-<div class="col-md-4 mtop-minus">
-<div class="colour-box colour-box--arrow">
-  <div class="colour-box__icon"></div>
-  <h1 class="colour-box__title">1 Lakh</h1>
-  <p class="colour-box__text text-white">Average Hands Daily</p>
-</div>
-</div>
-
-
-
-</div>
-</div>
-</div>
-
-
-<div class="container-fluid my-bag">
+<div class="container-fluid my-bag pt-2">
 <div class="container">
-<div class="row mt-5 p-3">
+<div class="row p-3">
 <div class="col-md-12"><h2 class="text-center text-black arialfontTitle">Shake Hands with Professional Players</h2></div>
 
 <div class="col-md-6 mt-4 mb-5"><img src="assets/img/hand1.png" class="img1" width="500"></div>
@@ -408,6 +373,14 @@
   }
   window.addEventListener('scroll', handleScroll);
 
+</script>
+
+<script>
+  const loginwithemail = document.querySelector('.loginwithemail');
+  const inputField = document.querySelector('.input-field');
+  loginwithemail.addEventListener('click', ()=> {
+    inputField.placeholder = "Enter Email ID"; 
+  })
 </script>
 
 <script>
